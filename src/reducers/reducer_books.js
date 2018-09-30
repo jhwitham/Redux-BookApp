@@ -5,5 +5,5 @@ export default function() {
     { title: 'Grinding It' },
     { title: 'From Nowhere to Somewhere' },
     { title: 'How to American' }
-  ]
+  ];
 }
