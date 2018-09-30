@@ -18,3 +18,13 @@ class BookList extends Component {
     )
   }
 }
+
+function mapStateToProps(state) {
+  // What is returned shows up as props
+  // inside of BookList
+  return {
+    books: state.books
+  };
+}
+
+export default connect(mapStateToProps)(BookList);
